@@ -1,0 +1,27 @@
+{% extends 'collection/layout.html' %}
+
+{% block content %}
+<h3> Releases: </h3>
+
+<ul class="collection">
+    
+    {% for release in releases %}
+    
+    <a href="releases/{{release.release_id}}">
+        <li class="collection-item avatar">
+              <i class="material-icons circle">album</i>
+              <span class="title"> <h5> {{release.title}} </h5> </span>
+              <p> Country: {{release.country}} <br>
+                 Genre: {{release.genre}}
+              </p>
+
+        </li>
+        </a>
+        
+    <li class="collection-item">  </li>
+    
+    {% endfor %}
+    
+</ul>
+
+{% endblock %}
