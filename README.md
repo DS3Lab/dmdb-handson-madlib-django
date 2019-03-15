@@ -1,4 +1,5 @@
-# Data Modeling and Databases - Hands-on Session - MADlib and Django
+### Data Modeling and Databases - Hands-on Session
+# MADlib and Django
 
 Code used in the Data Modeling and Databases class Hands-on session about MADLib and Django
 
